@@ -1,12 +1,9 @@
-import React from 'react'
-import { loginUser } from './api/authRoutes'
+import Routing from './routes/Routing'
 
 const App = () => {
-  console.log("first")
-  loginUser({ email: 'sarkaranurah104@gmail.com', password:"password"})
 
   return (
-    <div>App</div>
+    <Routing />   
   )
 }
 
